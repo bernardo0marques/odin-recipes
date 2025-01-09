@@ -1,36 +1,72 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 20px;
-    background-color: #f8f9fa;
+    margin: 0;
+    background-image: url('./images/coffee-background.jpg'); /* Ensure the correct path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: #333;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full height of the viewport */
 }
 
-h1 {
-    color: #5a2d0c;
+/* Flex Container for Page Content */
+.container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center horizontally */
     text-align: center;
+    gap: 20px; /* Add spacing between items */
 }
 
-.description {
-    font-style: italic;
-    margin-bottom: 10px;
+/* Title Styles */
+h1 {
+    font-family: 'Roboto Condensed', sans-serif; /* Industrial font */
+    font-size: 4em;
+    color: #ffffff; /* White for better contrast */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Shadow for extra contrast */
+    margin: 0;
 }
 
+/* Navigation List Styling */
 ul {
-    padding-left: 20px;
+    list-style-type: none; /* Remove bullets for navigation */
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.6); /* Transparent black background */
+    border-radius: 15px;
+    padding: 20px; /* Add padding inside the container */
+    width: 300px; /* Fixed width for consistent layout */
 }
 
 ul li {
-    margin-bottom: 5px;
+    margin: 10px 0; /* Add spacing between links */
 }
 
-.steps ul {
-    list-style-type: decimal;
+ul li a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #e3b04b; /* Coffee-inspired color */
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+    border-radius: 15px; /* Rounded corners */
 }
 
+ul li a:hover {
+    color: #fff;
+    background-color: #6f4e37; /* Coffee-brown hover effect */
+    border-radius: 15px;
+}
+
+/* Footer */
 footer {
-    margin-top: 20px;
-    font-size: 0.9em;
-    color: #555;
+    font-size: 0.8em;
+    color: #ccc;
     text-align: center;
 }
