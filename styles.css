@@ -4,10 +4,7 @@ body {
     margin: 0;
     text-align: center;
     color: #333;
-    background-image: url('./images/coffee-background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background: url('./images/coffee-background.jpg') center / cover fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,9 +15,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 15px; 
     background: rgba(0, 0, 0, 0.6);
-    padding: 20px;
+    padding: 15px; 
     border-radius: 15px;
     max-width: 800px;
     width: 90%;
@@ -29,10 +26,10 @@ body {
 
 h1 {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 3em;
+    font-size: 2.5em; 
     color: #fff;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    margin: 0;
+    margin: 5px 0; 
 }
 
 img {
@@ -43,56 +40,51 @@ img {
 }
 
 .description {
-    font-size: 1.2em;
+    font-size: 1.1em; 
     color: #ddd;
-    margin: 2px 0;
+    margin: 5px 0; 
 }
 
 h2 {
-    font-size: 1.8em;
+    font-size: 1.6em; 
     color: #e3b04b;
-    margin: 2px 0;
+    margin: 10px 0 5px 0; 
 }
 
 ul {
-    list-style-type: none; 
-    margin: 0;
+    list-style: none;
     padding: 0;
-    border-radius: 15px;
-    padding: 5px; 
-    width: 300px; 
+    margin: 0; 
 }
 
 ul li {
-    margin: 10px 0; 
-    color: #e3b04b; 
+    margin: 5px 0; 
     text-align: left;
-
+    color: #e3b04b;
 }
 
 ul li a {
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.4em; 
     color: #e3b04b;
-    padding: 10px 20px;
+    padding: 8px 15px; 
     display: block;
+    transition: 0.3s;
+    border-radius: 10px; 
     text-align: center;
-    transition: all 0.3s ease;
-    border-radius: 15px; 
 }
 
 ul li a:hover {
     color: #fff;
-    background-color: #6f4e37; 
-    border-radius: 15px;
+    background-color: #6f4e37;
 }
 
 .back-link {
     text-decoration: none;
     font-size: 1.2em;
     color: #e3b04b;
-    margin-bottom: 20px;
-    transition: color 0.3s ease;
+    margin-bottom: 15px; 
+    transition: color 0.3s;
 }
 
 .back-link:hover {
@@ -102,6 +94,5 @@ ul li a:hover {
 footer {
     font-size: 0.8em;
     color: #ccc;
-    margin-top: 20px;
-    text-align: center;
+    margin-top: 10px; 
 }
