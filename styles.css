@@ -4,7 +4,8 @@ body {
     margin: 0;
     text-align: center;
     color: #333;
-    background: url('./images/coffee-background.jpg') center / cover fixed;
+    background: linear-gradient(to right, #8b6f47, rgba(139, 111, 71, 0.8)), 
+                url('./images/coffee-background.jpg') center / cover no-repeat fixed;
     display: flex;
     justify-content: center;
     align-items: center;
